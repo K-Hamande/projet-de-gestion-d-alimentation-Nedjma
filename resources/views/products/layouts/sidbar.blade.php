@@ -1,7 +1,7 @@
 <div class="main-sidebar">
     <aside id="sidebar-wrapper">
         <div class="sidebar-brand">
-            <a href="{{Route('accueil')}}">alimentation Nedjama</a>
+            <a href="{{Route('accueil')}}">alimentation NEDJMA</a>
         </div>
         <div class="sidebar-brand sidebar-brand-sm">
             <a href="{{Route('accueil')}}"></a>
