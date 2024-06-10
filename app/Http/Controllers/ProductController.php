@@ -29,8 +29,8 @@ class ProductController extends Controller
     {
         $request->validate([
             'Nom' => 'required',
-            'PrixDAchat' => 'required|numeric',
-            'PrixDVente' => 'required|numeric',
+            'PrixDAchat' => 'required|integer',
+            'PrixDVente' => 'required|integer',
             'Description' => 'nullable',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
@@ -76,8 +76,8 @@ class ProductController extends Controller
     {
         $request->validate([
             'Nom' => 'required',
-            'PrixDAchat' => 'required|numeric',
-            'PrixDVente' => 'required|numeric',
+            'PrixDAchat' => 'required|integer',
+            'PrixDVente' => 'required|integer',
             'Description' => 'nullable',
             'image' => 'nullable|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
         ]);
